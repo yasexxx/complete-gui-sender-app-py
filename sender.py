@@ -117,16 +117,16 @@ class MainWindow(object):
 
     def emergency_window(self):
         self.hide()
-        page2 = PageTwo(self)
+        PageTwo(self)
 
 
     def hourlybell_window(self):
         self.hide()
-        page2 = PageThree(self)
+        PageThree(self)
 
     def live_window(self):
         self.hide()
-        page2 = PageFour(self)
+        PageFour(self)
 
     def show(self):
         #self.master.state("zoomed")
